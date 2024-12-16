@@ -63,3 +63,13 @@ Supports complex queries, aggregations, and indexing, enabling efficient data re
 Cloud-Native Features via Atlas:
 
 MongoDB Atlas provides automatic failover, backups, encryption, and seamless scaling, reducing the operational burden and enhancing reliability.
+
+## Maintainers
+
+| Member                        | Info     |
+| ----------------------------- | -------- |
+| Caio Martins Pereira          | RM357712 |
+| Maria Eduarda da Luz Meregali | RM356466 |
+| Rafael de Souza Ribeiro       | RM357622 |
+| Thaís Oliveira de Moura       | RM357737 |
+| Victor Toschi                 | RM356847 |
