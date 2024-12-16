@@ -64,6 +64,8 @@ Cloud-Native Features via Atlas:
 
 MongoDB Atlas provides automatic failover, backups, encryption, and seamless scaling, reducing the operational burden and enhancing reliability.
 
+---
+
 ## Maintainers
 
 | Member                        | Info     |
