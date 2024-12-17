@@ -12,9 +12,13 @@ provider "mongodbatlas" {
   private_key = var.atlas_private_key
 }
 
-module "mongodb" {
-  source       = "./modules/mongodb"
-  project_name = var.project_name
-  cluster_name = var.cluster_name
-  region       = var.region
+resource "mongodbatlas_cluster" "pos-tech-fiap" {
+  project_id   = "6701bac79529fe0cd6b114bc"
+  name         = "pos-tech-fiap"
+  provider_name = "AWS"
+  provider_region_name = "SA_EAST_1"
+  provider_instance_size_name = "M0"
+  disk_size_gb = 10
+
+  backup_enabled = false
 }
